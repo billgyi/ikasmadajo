@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "876369668714",
+    "project_id": "ikasmadajo-2a17b",
+    "storage_bucket": "ikasmadajo-2a17b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876369668714:android:b785ac21f2c3b636203813",
+        "android_client_info": {
+          "package_name": "com.ikasmadajo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIxldKIiL3PXuk9FXgaHZXHwAK7UzPz14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

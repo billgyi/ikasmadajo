@@ -4,7 +4,7 @@
     "slug": "skripsheet",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/logosmadajo.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
@@ -13,24 +13,35 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.skripsheet"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/logosmadajo.png",
         "backgroundColor": "#ffffff"
+      },
+
+      "package": "com.anonymous.skripsheet",
+      "notification": {
+        "icon": "./assets/images/logosmadajo.png",
+        "color": "#FFFFFF"
       }
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/logosmadajo.png"
     },
-    "plugins": [
-      "expo-router"
-    ],
+    "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0420d425-0115-4c3a-8718-515329e5909c"
+      }
+    },
+    "owner": "nabilghi"
   }
 }
